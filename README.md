@@ -5,3 +5,4 @@ docker run -d --hostname my-rabbit --name some-rabbit -p 15672:15672 -p 5672:567
 3. Important links:
 -RabbitMq Management: http://localhost:15672/#/
 -Add message to queue: http://localhost:8080/addMessage?message=test
+4. Run together with https://github.com/pzakrzewski/springboot-client-rabbitmq/
